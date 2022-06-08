@@ -2,8 +2,9 @@
 AI Doctor
 Nothing is changed about the script itself.
 
-# what is changed
+# what is changed / wat is er aangepast
 just changed some things from English to Dutch
+Een paar dingen aangepast van Engels Naar Nederlands.
 
 # Beschrijving :
 Dit script is te gebruiken wanneer er geen ambulance/personeel online is. De speler kan /help doen en een ambulance komt er aan met een doktor!
