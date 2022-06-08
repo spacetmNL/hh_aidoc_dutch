@@ -1,28 +1,23 @@
 # hh_aidoc_dutch
 AI Doctor
-Just a DUTCH translation.
+Nothing is changed about the script itself.
 
-# Description :
-This script is basically for to be used in the server when there are no ems /doctors available in the server the players will get an option to pay and get helped/revived on there spot present by a moving ambulance with a doctor!
+# what is changed
+just changed some things from English to Dutch
 
-# Features :
+# Beschrijving :
+Dit script is te gebruiken wanneer er geen ambulance/personeel online is. De speler kan /help doen en een ambulance komt er aan met een doktor!
 
-- This script is a very useful for huge servers where the population have no option rather than respawning 
-   every time they will get to experience more rp by this method!
-- The ems ped in the ambulance can come from anywhere it doesn't matter where you are located and it 
-   will be in a well mannered way
-- Money/fees of the ambulance and the ems ped will be deducted for there service!
-- The driving manner of the ped is very well organized it wont drive recklessly!
-- This script is highly configurable according to your choice all of the options you see in the video and 
-   features are editable with the notifications!
-- This script is basically for enhancing and bringing up more rp in the server rather than respawning!
-- This script supports ESX and QB and if any excessive support needed hit me up!
-- It will automatically adapt to your framework whether ESX/QB basically its a put and run script!
-- This script is uploaded on GitHub so you guys can request pull requests so feel free to add some required and 
-   useful changes.
-- Feel free to do whatever you like with this script just don't edit and resell lol! 
+# Functies :
+- Dit script is  handig voor grote servers waar er zoveel spelers zijn dat respawnen de engiste optie is.
+- Ambulance/doktor kan overal komen maakt niet uit waar de speler zich bevind. En rijd netjes.
+- Er word  500 euro/dollar afgeschreven voor de ambulance service! !
+- Het script is veel aanpasbaar, zie video
+- Dit script support ESX and QB als er je hulp nodig hebt contacteer mij!
+- MAG AANGEPAST WORDEN!
+- MAG NIET VERKOCHT WORDEN! 
 
 Forum : https://forum.cfx.re/t/qb-esx-hh-aid-doctor-ai-doctor-release-free/4768466
 
-Preview : https://www.youtube.com/watch?v=HdY6m8EZGDQ
+Video : https://www.youtube.com/watch?v=HdY6m8EZGDQ
 
