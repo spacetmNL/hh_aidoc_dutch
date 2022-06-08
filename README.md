@@ -1,8 +1,8 @@
-# hh_aidoc
+# hh_aidoc_dutch
 AI Doctor
+Just a DUTCH translation.
 
 # Description :
-A dutch translation
 This script is basically for to be used in the server when there are no ems /doctors available in the server the players will get an option to pay and get helped/revived on there spot present by a moving ambulance with a doctor!
 
 # Features :
