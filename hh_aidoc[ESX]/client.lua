@@ -32,19 +32,19 @@ RegisterCommand("help", function(source, args, raw)
 			if EMSOnline <= Config.Doctor and hasEnoughMoney and spam then
 				SpawnVehicle(GetEntityCoords(PlayerPedId()))
 				TriggerServerEvent('hhfw:charge')
-				Notify("Medic is arriving")
+				Notify("Ambulance opgeroepen!")
 			else
 				if EMSOnline > Config.Doctor then
-					Notify("There is too many medics online", "error")
+					Notify("teveel ambulance personeel online!", "Helaas!")
 				elseif not hasEnoughMoney then
-					Notify("Not Enough Money")
+					Notify("helaas, je hebt niet genoeg geld!")
 				else
-					Notify("Wait Paramadic is on its Way")
+					Notify("ambulance is onderweg")
 				end	
 			end
 		end)
 	else
-		Notify("This can only be used when dead")
+		Notify("Je kunt dit alleen gebruiken als je dood bent!")
 	end
 end)
 
@@ -120,13 +120,13 @@ function DoctorNPC()
 	end
 
 	TaskPlayAnim(test1, "mini@cpr@char_a@cpr_str","cpr_pumpchest",1.0, 1.0, -1, 9, 1.0, 0, 0, 0)
-	exports['progressBars']:startUI(Config.ReviveTime, "The doctor is giving you medical aid")
+	exports['progressBars']:startUI(Config.ReviveTime, "De arts is je aan het reanimeren ")
 	Wait(Config.ReviveTime)
 	ClearPedTasks(test1)
 	Citizen.Wait(500)
 	TriggerEvent('esx_ambulancejob:revive')
 	StopScreenEffect('DeathFailOut')	
-	Notify("Your treatment is done, you were charged: "..Config.Price)
+	Notify("Je bent geholpen kosten: "..Config.Price)
 	RemovePedElegantly(test1)
 	DeleteEntity(test)
 	spam = true
